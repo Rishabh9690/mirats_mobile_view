@@ -1,0 +1,529 @@
+body {
+    background: #FAFAFA;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+@media all {
+    .mirats_level_one {
+        text-align: right;
+        padding-right: 50px;
+    }
+    .mirats_level_one button{
+        /* display: flex; */
+        color: #FFF;
+        font-family: Pretendard;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 8px 16px;
+        border: none;
+        /* justify-content: center; */
+        /* align-items: center; */
+        gap: 8px;
+        border-radius: 4px;
+        background: #0166B8;
+        cursor: pointer;
+    }
+    .mirats_level_two {
+        width: 100%;
+    }
+
+    .mirats_level_two_text button {
+        border: none;
+    }
+
+    .mirats_level_three {
+        width: 70%;
+        text-align: left;
+    }
+
+    .mirats_level_five_faq h2 {
+        width: 80%;
+        text-align: left;
+        cursor: pointer;
+    }
+
+    .mirats_level_five_faq h3 {
+        color: #3d3d3d;
+        width: 80%;
+        text-align: left;
+    }
+}
+
+@media (min-width: 1025px) {
+    .mirats_level_one {
+        text-align: right;
+        padding-right: 50px;
+    }
+
+    .mirats_level_one p {
+        font-size: 24px;
+    }
+
+    .mirats_level_two_image {
+        overflow: hidden !important;
+        position: relative;
+    }
+
+    .mirats_level_two_text {
+        position: absolute;
+        width: 40%;
+        padding: 0 30px;
+        color: #FAFAFA;
+        left: 20px;
+        top: 450px;
+    }
+
+    .mirats_level_two_text h2 {
+        font-size: 42px;
+    }
+
+    .mirats_level_two_text button {
+        font-size: 30px;
+        padding: 20px;
+        font-weight: 600;
+        border-radius: 10%
+    }
+
+    .mirats_level_two_text p {
+        font-size: 38px;
+    }
+
+    .mirats_level_three {
+        padding: 0 30px;
+    }
+
+    .mirats_level_three h2 {
+        margin: 50px 0;
+        font-size: 38px;
+    }
+
+    .mirats_level_four {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        text-align: left;
+        padding: 0 30px;
+    }
+
+    .mirats_level_four p {
+        font-size: 34px;
+    }
+
+    .mirats_level_four h2 {
+        font-size: 38px;
+    }
+
+    .mirats_level_four button {
+        font-size: 30px;
+        padding: 20px;
+        border: none;
+        font-weight: 600;
+        border-radius: 10%
+    }
+
+    .mirats_level_five {
+        margin: 50px auto;
+    }
+
+    .mirats_level_five h1 {
+        font-size: 48px;
+    }
+
+    .mirats_level_five_faq h2 {
+        padding: 0 40px;
+        font-size: 30px;
+    }
+
+    .mirats_level_five_faq h3 {
+        padding: 0 40px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 769px) and (max-width:1024px){
+    .mirats_level_one {
+        text-align: right;
+        padding-right: 40px;
+    }
+
+    .mirats_level_one p {
+        font-size: 24px;
+    }
+
+    .mirats_level_two_image {
+        overflow: hidden !important;
+        position: relative;
+    }
+
+    .mirats_level_two_text {
+        position: absolute;
+        width: 40%;
+        padding: 0 30px;
+        color: #FAFAFA;
+        left: 20px;
+        top: 250px;
+    }
+
+    .mirats_level_two_image img{
+        width: 100%;
+    }
+
+    .mirats_level_two_text h2 {
+        font-size: 38px;
+    }
+
+    .mirats_level_two_text button {
+        font-size: 30px;
+        padding: 20px;
+        font-weight: 600;
+        border-radius: 10%
+    }
+
+    .mirats_level_two_text p {
+        font-size: 26px;
+    }
+
+    .mirats_level_three {
+        padding: 0 30px;
+    }
+
+    .mirats_level_three h2 {
+        margin: 50px 0;
+        font-size: 35px;
+    }
+
+    .mirats_level_four {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        text-align: left;
+        padding: 0 30px;
+    }
+
+    .mirats_level_four p {
+        font-size: 28px;
+    }
+
+    .mirats_level_four h2 {
+        font-size: 35px;
+    }
+
+    .mirats_level_four button {
+        font-size: 28px;
+        padding: 20px;
+        border: none;
+        font-weight: 600;
+        border-radius: 10%
+    }
+
+    .mirats_level_five {
+        margin: 50px auto;
+    }
+
+    .mirats_level_five h1 {
+        font-size: 45px;
+    }
+
+    .mirats_level_five_faq h2 {
+        padding: 0 40px;
+        font-size: 30px;
+    }
+
+    .mirats_level_five_faq h3 {
+        padding: 0 40px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 426px) and (max-width:768px){
+    .mirats_level_one {
+        text-align: right;
+        padding-right: 30px;
+    }
+
+    .mirats_level_one p {
+        font-size: 24px;
+    }
+
+    .mirats_level_two_image {
+        overflow: hidden !important;
+        position: relative;
+    }
+
+    .mirats_level_two_text {
+        position: absolute;
+        width: 40%;
+        padding: 0 30px;
+        color: #FAFAFA;
+        left: 20px;
+        top: 150px;
+    }
+
+    .mirats_level_two_image img{
+        width: 100%;
+    }
+
+    .mirats_level_two_text h2 {
+        font-size: 38px;
+    }
+
+    .mirats_level_two_text button {
+        font-size: 30px;
+        padding: 20px;
+        font-weight: 600;
+        border-radius: 10%
+    }
+
+    .mirats_level_two_text p {
+        font-size: 26px;
+    }
+
+    .mirats_level_three {
+        padding: 0 30px;
+    }
+
+    .mirats_level_three h2 {
+        margin: 50px 0;
+        font-size: 35px;
+    }
+
+    .mirats_level_four {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        text-align: left;
+        padding: 0 30px;
+    }
+
+    .mirats_level_four p {
+        font-size: 28px;
+    }
+
+    .mirats_level_four h2 {
+        font-size: 35px;
+    }
+
+    .mirats_level_four button {
+        font-size: 25px;
+        padding: 20px;
+        border: none;
+        font-weight: 600;
+        border-radius: 10%
+    }
+
+    .mirats_level_five {
+        margin: 50px auto;
+    }
+
+    .mirats_level_five h1 {
+        font-size: 42px;
+    }
+
+    .mirats_level_five_faq h2 {
+        padding: 0 40px;
+        font-size: 30px;
+    }
+
+    .mirats_level_five_faq h3 {
+        padding: 0 40px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 375px) and (max-width:425px){
+    .mirats_level_one {
+        text-align: right;
+        padding-right: 20px;
+    }
+
+    .mirats_level_one button{
+        padding: 6px 12px;
+    }
+
+    .mirats_level_one p {
+        font-size: 15px;
+    }
+
+    .mirats_level_two_image {
+        overflow: hidden !important;
+    }
+
+    .mirats_level_two_text {
+        margin: 30px auto;
+        width: 80%;
+        padding: 0 30px;
+        color: #333;
+    }
+
+    .mirats_level_two_image img{
+        width: 100%;
+    }
+
+    .mirats_level_two_text h2 {
+        font-size: 28px;
+    }
+
+    .mirats_level_two_text button {
+        font-size: 20px;
+        padding: 15px;
+        font-weight: 600;
+        border-radius: 10%
+    }
+
+    .mirats_level_two_text p {
+        font-size: 18px;
+    }
+
+    .mirats_level_three {
+        width: 80%;
+        margin: 30px auto;
+        padding: 0 30px;
+        text-align: center;
+    }
+
+    .mirats_level_three h2 {
+        margin: 40px 0;
+        font-size: 28px;
+    }
+
+    .mirats_level_four {
+        display: grid;
+        /* grid-template-columns: repeat(2, 1fr); */
+        gap: 30px;
+        text-align: center;
+        padding: 0 30px;
+    }
+
+    .mirats_level_four p {
+        font-size: 22px;
+    }
+
+    .mirats_level_four h2 {
+        font-size: 28px;
+    }
+
+    .mirats_level_four button {
+        font-size: 20px;
+        padding: 20px;
+        border: none;
+        font-weight: 600;
+        border-radius: 10%
+    }
+
+    .mirats_level_five {
+        margin: 40px auto;
+    }
+
+    .mirats_level_five h1 {
+        font-size: 32px;
+    }
+
+    .mirats_level_five_faq h2 {
+        padding: 0 30px;
+        font-size: 22px;
+    }
+
+    .mirats_level_five_faq h3 {
+        padding: 0 30px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width:374px){
+    .mirats_level_one {
+        text-align: right;
+        padding-right: 10px;
+    }
+
+    .mirats_level_one button{
+        padding: 6px 12px;
+    }
+
+    .mirats_level_one p {
+        font-size: 12px;
+    }
+
+    .mirats_level_two_image {
+        overflow: hidden !important;
+    }
+
+    .mirats_level_two_text {
+        margin: 20px auto;
+        width: 80%;
+        padding: 0 20px;
+        color: #333;
+    }
+
+    .mirats_level_two_image img{
+        width: 100%;
+    }
+
+    .mirats_level_two_text h2 {
+        font-size: 25px;
+    }
+
+    .mirats_level_two_text button {
+        font-size: 20px;
+        padding: 15px;
+        font-weight: 600;
+        border-radius: 10%
+    }
+
+    .mirats_level_two_text p {
+        font-size: 18px;
+    }
+
+    .mirats_level_three {
+        width: 80%;
+        margin: 30px auto;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .mirats_level_three h2 {
+        margin: 40px 0;
+        font-size: 28px;
+    }
+
+    .mirats_level_four {
+        display: grid;
+        /* grid-template-columns: repeat(2, 1fr); */
+        gap: 30px;
+        text-align: center;
+        padding: 0 30px;
+    }
+
+    .mirats_level_four p {
+        font-size: 22px;
+    }
+
+    .mirats_level_four h2 {
+        font-size: 28px;
+    }
+
+    .mirats_level_four button {
+        font-size: 20px;
+        padding: 20px;
+        border: none;
+        font-weight: 600;
+        border-radius: 10%
+    }
+
+    .mirats_level_five {
+        margin: 40px auto;
+    }
+
+    .mirats_level_five h1 {
+        font-size: 28px;
+    }
+
+    .mirats_level_five_faq h2 {
+        padding: 0 20px;
+        font-size: 18px;
+    }
+
+    .mirats_level_five_faq h3 {
+        padding: 0 20px;
+        font-size: 15px;
+    }
+}

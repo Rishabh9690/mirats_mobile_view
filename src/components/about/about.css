@@ -1,0 +1,496 @@
+body {
+    background: #FAFAFA;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+@media all {
+    .migrats_about {
+        width: 100%;
+    }
+
+    .migrats_about_level_one {
+        background-color: rgb(34, 55, 55);
+    }
+
+    .migrats_about_level_one_text {
+        width: 60%;
+        text-align: left;
+        color: #FAFAFA;
+    }
+
+    .migrats_about_level_two {
+        width: 100%;
+    }
+
+    .migrats_about_level_two_about_info {
+        width: 60%;
+        text-align: center;
+    }
+
+    .migrats_about_level_two_about_info h2 {
+        color: #333;
+        align-items: center;
+        font-weight: 600;
+        line-height: 120%
+    }
+
+    .migrats_about_level_two_about_info h2 span {
+        color: #6E6E73;
+        align-items: center;
+        font-weight: 600;
+        line-height: 120%
+    }
+
+    .migrats_about_level_three {
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #FAFAFA;
+        background: linear-gradient(270deg, #4333FD 0%, #0182FA 50.83%, #4333FD 100%);
+    }
+
+    .migrats_about_level_three_clients_chlid img {
+        background-color: #333;
+    }
+
+    .migrats_about_level_three_clients_chlid section {
+        color: #333;
+        background-color: #FAFAFA;
+    }
+
+    .migrats_about_level_four {
+        display: inline-grid;
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1025px) {
+    .migrats_about_level_one {
+        margin: 0;
+        padding: 60px 40px;
+    }
+
+    .migrats_about_level_one_text p {
+        font-size: 18px;
+    }
+
+    .migrats_about_level_one_text h2 {
+        font-size: 34px;
+    }
+
+    .migrats_about_level_two_about_info {
+        margin: 80px auto;
+        padding: 45px 35px;
+    }
+
+    .migrats_about_level_two_about_info h2 {
+        font-size: 34px;
+    }
+
+    .migrats_about_level_two_about_info h2 span {
+        font-size: 34px;
+    }
+
+    .migrats_about_level_two_about_info p {
+        font-size: 18px;
+    }
+
+    .migrats_about_level_three {
+        padding: 60px 100px;
+    }
+
+    .migrats_about_level_three p {
+        font-size: 18px;
+    }
+
+    .migrats_about_level_three h1 {
+        font-size: 45px;
+    }
+
+    .migrats_about_level_three_clients_parent {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .migrats_about_level_three_clients_chlid {
+        display: flex;
+        width: 100%;
+    }
+
+    .migrats_about_level_three_clients_chlid section {
+        padding: 30px;
+        text-align: left;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .migrats_about_level_three_clients_chlid section h2{
+        font-size: 28px;
+    }
+
+    .migrats_about_level_three_clients_chlid section p{
+        font-size: 15px;
+    }
+
+    .migrats_about_level_four {
+        margin: 40px auto;
+    }
+
+    .migrats_about_level_four h2 {
+        font-size: 36px;
+        margin: 20px auto;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .migrats_about_level_one {
+        margin: 0;
+        padding: 45px 30px;
+    }
+
+    .migrats_about_level_one_text p {
+        font-size: 15px;
+    }
+
+    .migrats_about_level_one_text h2 {
+        font-size: 27px;
+    }
+
+    .migrats_about_level_two_about_info {
+        margin: 60px auto;
+        padding: 34px 27px;
+    }
+
+    .migrats_about_level_two_about_info h2 {
+        font-size: 30px;
+    }
+
+    .migrats_about_level_two_about_info h2 span {
+        font-size: 30px;
+    }
+
+    .migrats_about_level_two_about_info p {
+        font-size: 15px;
+    }
+
+    .migrats_about_level_three {
+        padding: 40px 75px;
+    }
+
+    .migrats_about_level_three p {
+        font-size: 18px;
+    }
+
+    .migrats_about_level_three h1 {
+        font-size: 38px;
+    }
+
+    .migrats_about_level_three_clients_parent {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .migrats_about_level_three_clients_chlid {
+        display: flex;
+        width: 100%;
+    }
+
+    .migrats_about_level_three_clients_chlid section {
+        padding: 15px;
+        text-align: left;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .migrats_about_level_three_clients_chlid section h2{
+        font-size: 25px;
+    }
+
+    .migrats_about_level_three_clients_chlid section p{
+        font-size: 13px;
+    }
+
+    .migrats_about_level_four {
+        margin: 30px auto;
+    }
+
+    .migrats_about_level_four h2 {
+        font-size: 27px;
+        margin: 15px auto;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .migrats_about_level_one {
+        display: flex;
+        margin: auto;
+        padding: 45px 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .migrats_about_level_one_text{
+        text-align: center;
+    }
+
+    .migrats_about_level_one_text p {
+        font-size: 15px;
+    }
+
+    .migrats_about_level_one_text h2 {
+        font-size: 27px;
+    }
+
+    .migrats_about_level_two_about_info {
+        width: 70%;
+        margin: 60px auto;
+        padding: 34px 27px;
+    }
+
+    .migrats_about_level_two_about_info h2 {
+        font-size: 30px;
+    }
+
+    .migrats_about_level_two_about_info h2 span {
+        font-size: 30px;
+    }
+
+    .migrats_about_level_two_about_info p {
+        font-size: 15px;
+    }
+
+    .migrats_about_level_three {
+        padding: 20px 25px;
+    }
+
+    .migrats_about_level_three p {
+        font-size: 18px;
+    }
+
+    .migrats_about_level_three h1 {
+        font-size: 30px;
+    }
+
+    .migrats_about_level_three_clients_parent {
+        display: grid;
+        gap: 30px;
+    }
+
+    .migrats_about_level_three_clients_chlid {
+        display: flex;
+        width: 100%;
+    }
+
+    .migrats_about_level_three_clients_chlid section {
+        padding: 30px;
+        text-align: left;
+        align-items: center;
+        justify-content: center;
+    }
+    .migrats_about_level_three_clients_chlid section h2{
+        font-size: 25px;
+    }
+
+    .migrats_about_level_three_clients_chlid section p{
+        font-size: 13px;
+    }
+    .migrats_about_level_four {
+        margin: 30px auto;
+    }
+
+    .migrats_about_level_four h2 {
+        font-size: 27px;
+        margin: 15px auto;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 425px) {
+    .migrats_about_level_one {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 45px 30px;
+    }
+
+    .migrats_about_level_one_text{
+        width: 100%;
+    }
+
+    .migrats_about_level_one_text p {
+        margin: auto auto;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .migrats_about_level_one_text h2 {
+        text-align: center;
+        font-size: 27px;
+    }
+
+    .migrats_about_level_two_about_info {
+        width: 70%;
+        margin: 60px auto;
+        padding: 34px 27px;
+    }
+
+    .migrats_about_level_two_about_info h2 {
+        font-size: 30px;
+    }
+
+    .migrats_about_level_two_about_info h2 span {
+        font-size: 30px;
+    }
+
+    .migrats_about_level_two_about_info p {
+        font-size: 15px;
+    }
+
+    .migrats_about_level_three {
+        padding: 20px 15px;
+    }
+
+    .migrats_about_level_three p {
+        font-size: 18px;
+    }
+
+    .migrats_about_level_three h1 {
+        font-size: 30px;
+    }
+
+    .migrats_about_level_three_clients_parent {
+        display: grid;
+        gap: 30px;
+    }
+
+    .migrats_about_level_three_clients_chlid {
+        width: 100%;
+    }
+
+    .migrats_about_level_three_clients_chlid img{
+        width: 86%;
+    }
+    
+    .migrats_about_level_three_clients_chlid section {
+        display: inline-block;
+        width: 80%;
+        padding: 10px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .migrats_about_level_three_clients_chlid section h2{
+        font-size: 21px;
+    }
+
+    .migrats_about_level_three_clients_chlid section p{
+        font-size: 13px;
+    }
+
+    .migrats_about_level_four {
+        margin: 30px auto;
+    }
+
+    .migrats_about_level_four h2 {
+        font-size: 21px;
+        margin: 15px auto;
+    }
+}
+
+@media (max-width: 374px) {
+    .migrats_about_level_one {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 45px 30px;
+    }
+
+    .migrats_about_level_one_text{
+        width: 100%;
+    }
+
+    .migrats_about_level_one_text p {
+        margin: auto auto;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .migrats_about_level_one_text h2 {
+        text-align: center;
+        font-size: 27px;
+    }
+
+    .migrats_about_level_two_about_info {
+        width: 80%;
+        margin: 60px auto;
+        padding: 34px 27px;
+    }
+
+    .migrats_about_level_two_about_info h2 {
+        font-size: 30px;
+    }
+
+    .migrats_about_level_two_about_info h2 span {
+        font-size: 30px;
+    }
+
+    .migrats_about_level_two_about_info p {
+        font-size: 15px;
+    }
+
+    .migrats_about_level_three {
+        padding: 20px 15px
+    }
+
+    .migrats_about_level_three p {
+        font-size: 18px;
+    }
+
+    .migrats_about_level_three h1 {
+        font-size: 30px;
+    }
+
+    .migrats_about_level_three_clients_parent {
+        display: grid;
+        gap: 30px;
+    }
+
+    .migrats_about_level_three_clients_chlid {
+        width: 100%;
+    }
+
+    .migrats_about_level_three_clients_chlid img{
+        width: 86%;
+    }
+    
+    .migrats_about_level_three_clients_chlid section {
+        display: inline-block;
+        width: 80%;
+        padding: 10px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .migrats_about_level_three_clients_chlid section h2{
+        font-size: 21px;
+    }
+
+    .migrats_about_level_three_clients_chlid section p{
+        font-size: 13px;
+    }
+
+    .migrats_about_level_four {
+        margin: 30px auto;
+    }
+
+    .migrats_about_level_four h2 {
+        font-size: 21px;
+        margin: 15px auto;
+    }
+}
